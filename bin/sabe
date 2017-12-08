@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+"use strict";
+
+const sabe = require("..");
+const argv = require("minimist")(process.argv.slice(2));
+
+sabe(argv._[0]);
+
+process.on("uncaughtException", error => {
+  console.log("no sabe");
+});

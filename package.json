@@ -1,0 +1,20 @@
+{
+  "name": "sabe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "sabe",
+    "elbananero"
+  ],
+  "author": "Juan Cazala <cazala@mail.sfsu.edu> https://caza.la",
+  "license": "ISC",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "minimist": "^1.2.0",
+    "play-sound": "^1.1.1"
+  },
+  "bin": {
+    "sabe": "./bin/sabe"
+  }
+}
